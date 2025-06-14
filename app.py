@@ -2,8 +2,6 @@ import streamlit as st
 import requests
 from datetime import datetime
 import pandas as pd
-import geopandas
-from shapely.geometry import Point
 
 st.set_page_config(page_title="TaxiFare Predictor", page_icon="🚕", layout="centered")
 
